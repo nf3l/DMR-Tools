@@ -103,7 +103,8 @@ namespace NF3L
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            LH_timer.Start();
+            updateLH();
         }
 
         private void tbOutput_TextChanged(object sender, EventArgs e)
@@ -133,6 +134,25 @@ namespace NF3L
             label1.Text = " ";
 
 
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void updateLH()
+        {
+            LHDataInfo.LHData[] LH = LHDataInfo.LH_Data_Get(5); //look backwards in time by 5 seconds (last heard in 5 seconds)
+            foreach (LHDataInfo.LHData lh in LH)
+            {
+                tbLH.Text = ( lh.callsign + " - " + lh.talkgroup + " - " + lh.duration + "s \r\n") + tbLH.Text;
+            }
+        }
+
+        private void LH_timer_Tick(object sender, EventArgs e)
+        {
+            updateLH();
         }
     }
 }
