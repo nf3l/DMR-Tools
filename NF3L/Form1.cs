@@ -143,7 +143,7 @@ namespace NF3L
 
         public void updateLH()
         {
-            LHDataInfo.LHData[] LH = LHDataInfo.LH_Data_Get(5); //look backwards in time by 5 seconds (last heard in 5 seconds)
+            LHDataInfo.LHData[] LH = LHDataInfo.LH_Data_Get(15); //look backwards in time by 5 seconds (last heard in 5 seconds)
             foreach (LHDataInfo.LHData lh in LH)
             {
                 tbLH.Text = ( lh.callsign + " - " + lh.talkgroup + " - " + lh.duration + "s \r\n") + tbLH.Text;
