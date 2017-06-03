@@ -1279,6 +1279,16 @@
         5YYxc/Bu+3zIpsxw4huvpMfLsfS3HzNRc7UUtWKSxQEUkJpoTzOCJ//Z
 </value>
   </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>
+                                          DMR TOOLS
+                                            Version 1.0
+
+                                Code Written By:  Ty - KG5RKI
+                                   GUI Inetrface By:   Jim NF3L
+
+                                            Written in C#</value>
+  </data>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>25</value>
   </metadata>
