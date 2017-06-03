@@ -154,5 +154,10 @@ namespace NF3L
         {
             updateLH();
         }
-    }
+
+		private void tabPage1_Click(object sender, EventArgs e)
+		{
+
+		}
+	}
 }
