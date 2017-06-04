@@ -159,5 +159,10 @@ namespace NF3L
 		{
 
 		}
-	}
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
