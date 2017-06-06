@@ -58,6 +58,8 @@
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.button8 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -68,6 +70,7 @@
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnGO
@@ -214,12 +217,12 @@
             // 
             // tabControl1
             // 
-            this.tabControl1.Appearance = System.Windows.Forms.TabAppearance.Buttons;
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Font = new System.Drawing.Font("Lucida Sans Typewriter", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.Location = new System.Drawing.Point(12, 12);
+            this.tabControl1.Multiline = true;
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(748, 583);
@@ -239,12 +242,12 @@
             this.tabPage1.Controls.Add(this.groupBox2);
             this.tabPage1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.tabPage1.Location = new System.Drawing.Point(4, 24);
+            this.tabPage1.Location = new System.Drawing.Point(4, 21);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(740, 555);
+            this.tabPage1.Size = new System.Drawing.Size(740, 558);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "    DMR Tools       ";
+            this.tabPage1.Text = "  DMR Tools  ";
             this.tabPage1.UseVisualStyleBackColor = true;
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
@@ -296,14 +299,15 @@
             // tabPage3
             // 
             this.tabPage3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage3.BackgroundImage")));
+            this.tabPage3.Controls.Add(this.panel3);
             this.tabPage3.Controls.Add(this.panel2);
             this.tabPage3.Controls.Add(this.panel1);
             this.tabPage3.Controls.Add(this.richTextBox2);
-            this.tabPage3.Location = new System.Drawing.Point(4, 24);
+            this.tabPage3.Location = new System.Drawing.Point(4, 21);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(740, 555);
+            this.tabPage3.Size = new System.Drawing.Size(740, 558);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "    TY MD-380 Tools - AIO    ";
+            this.tabPage3.Text = "  TY MD-380 Tools - AIO  ";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // panel2
@@ -311,7 +315,7 @@
             this.panel2.BackColor = System.Drawing.Color.Silver;
             this.panel2.Controls.Add(this.button7);
             this.panel2.Controls.Add(this.button1);
-            this.panel2.Location = new System.Drawing.Point(46, 481);
+            this.panel2.Location = new System.Drawing.Point(35, 481);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(229, 41);
             this.panel2.TabIndex = 6;
@@ -344,7 +348,7 @@
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button6);
-            this.panel1.Location = new System.Drawing.Point(352, 481);
+            this.panel1.Location = new System.Drawing.Point(274, 481);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(339, 41);
             this.panel1.TabIndex = 5;
@@ -395,12 +399,12 @@
             // 
             this.tabPage2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage2.BackgroundImage")));
             this.tabPage2.Controls.Add(this.richTextBox1);
-            this.tabPage2.Location = new System.Drawing.Point(4, 24);
+            this.tabPage2.Location = new System.Drawing.Point(4, 21);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(740, 555);
+            this.tabPage2.Size = new System.Drawing.Size(740, 558);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "    About    ";
+            this.tabPage2.Text = "  About  ";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // richTextBox1
@@ -413,6 +417,27 @@
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Silver;
+            this.panel3.Controls.Add(this.button8);
+            this.panel3.Location = new System.Drawing.Point(630, 482);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(70, 39);
+            this.panel3.TabIndex = 7;
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Location = new System.Drawing.Point(11, 8);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(50, 23);
+            this.button8.TabIndex = 0;
+            this.button8.Text = "Exit";
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // Form1
             // 
@@ -440,6 +465,7 @@
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -473,6 +499,8 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button button8;
     }
 }
 
