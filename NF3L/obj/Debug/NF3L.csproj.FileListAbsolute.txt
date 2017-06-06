@@ -10,3 +10,15 @@ C:\Users\DefaultAppPool\Source\Repos\DMR-Tools2\NF3L\obj\Debug\NF3L.Properties.R
 C:\Users\DefaultAppPool\Source\Repos\DMR-Tools2\NF3L\obj\Debug\NF3L.csproj.GenerateResource.Cache
 C:\Users\DefaultAppPool\Source\Repos\DMR-Tools2\NF3L\obj\Debug\NF3L.exe
 C:\Users\DefaultAppPool\Source\Repos\DMR-Tools2\NF3L\obj\Debug\NF3L.pdb
+C:\Users\jchookagian.local\Source\Repos\DMR-Tools2\NF3L\bin\Debug\NF3L.exe.config
+C:\Users\jchookagian.local\Source\Repos\DMR-Tools2\NF3L\obj\Debug\NF3L.exe
+C:\Users\jchookagian.local\Source\Repos\DMR-Tools2\NF3L\obj\Debug\NF3L.pdb
+C:\Users\jchookagian.local\Source\Repos\DMR-Tools2\NF3L\bin\Debug\NF3L.exe
+C:\Users\jchookagian.local\Source\Repos\DMR-Tools2\NF3L\bin\Debug\NF3L.pdb
+C:\Users\jchookagian.local\Source\Repos\DMR-Tools2\NF3L\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jchookagian.local\Source\Repos\DMR-Tools2\NF3L\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\jchookagian.local\Source\Repos\DMR-Tools2\NF3L\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jchookagian.local\Source\Repos\DMR-Tools2\NF3L\obj\Debug\NF3L.csprojResolveAssemblyReference.cache
+C:\Users\jchookagian.local\Source\Repos\DMR-Tools2\NF3L\obj\Debug\NF3L.Form1.resources
+C:\Users\jchookagian.local\Source\Repos\DMR-Tools2\NF3L\obj\Debug\NF3L.Properties.Resources.resources
+C:\Users\jchookagian.local\Source\Repos\DMR-Tools2\NF3L\obj\Debug\NF3L.csproj.GenerateResource.Cache
